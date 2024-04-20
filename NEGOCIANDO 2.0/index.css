@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;  
+  }
+  .body{
+    font-family: "Poppins", sans-serif;
+
+}
+  .back{
+  padding: 28px 0;
+  background-color: rgb(21, 21, 21); 
+  }   
+  .menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+  }
+  .menu-icono{
+    width: 190px; 
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+  .banner{
+    width: 1500px; 
+    height: 200px;
+    margin-top: px;
+    
+  }
+  .registra{
+  position: absolute;
+  top: 75px;
+  left: 300px;
+  font-size: 75px;
+  color: white;
+  height: 76px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  }
+  .negocio{
+    position: absolute;
+    top: 130px;
+    left: 700px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 90px;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .importante{
+    position: absolute;
+    top: 268px;
+    left: 450px;
+    font-family: "Poppins", sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .publico{
+    position: absolute;
+    top: 268px;
+    left: 600px;
+    font-family: "Poppins", sans-serif;
+    font-size: 23px;
+    font-style: normal;
+  }
+  .form-content{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    background: linear-gradient(
+      50deg
+      rgba(40,42,55,1) 50%,
+      rgba(40,42,55,0.7)),
+      url();
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 50px;
+      width: 1000px;
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+label{
+  margin-bottom: 14px; 
+}
+input{
+  margin-bottom: 14px; 
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border: 0;
+  
+}
+  input , textarea {
+    padding: 8px 8px;
+  }
+
+  .btn{
+    background-color: #94f35a;
+    color: #181818;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 250px;
+    height: 70px;
+    font-size: 23px;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 5px;
+    margin-left: 550px;
+    
+  }
+  .btn:hover{
+    background-color: #74bc4c;
+  }
+  input[type="checkbox"] {
+    transform: scale(1.7);
+    margin-left: 325px;
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column; 
+    
+  }
+
+  @media(max-width:991px){
+    body{
+      padding: 30px;
+    }
+    .form-content{
+      width: 100%;
+    }
+    .form{
+      width: 100%;
+    }
+  }
+ 
