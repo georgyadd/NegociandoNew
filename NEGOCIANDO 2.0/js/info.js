@@ -10,7 +10,7 @@ export const categories = [
 export const business= [
   {
     imgName: "abarrotes-grisi.png",
-    name: "Abarrotes Grisi",
+    name: "Abarrotes Elena",
     starTime: "8:00",
     endTime: "23:30",
     desc: "Tienda de articulos de primera necesidad, pago de servicios, etc..",
